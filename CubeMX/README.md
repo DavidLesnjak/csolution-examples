@@ -1,6 +1,6 @@
 # CubeMX project
 
-This project shows the usage of CubeMX. Refer to the documentation chapter [
+This project shows the usage of CubeMX. Refer to the documentation chapter
 [**CMSIS-Toolbox > Work with CubeMX**](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/tree/main/docs/CubeMX.md) for details.
 
 ## Prerequisites
@@ -11,7 +11,7 @@ This project shows the usage of CubeMX. Refer to the documentation chapter [
 - [Keil MDK 5.37](https://www2.keil.com/mdk5/) or higher
 - [STM32CubeMX 6.11](https://www.st.com/en/development-tools/stm32cubemx.html) or higher
 
->**Note:** later versions will also compiler with GCC.
+>**Note:** later versions will also compile with GCC.
 
 ### Packs
 
@@ -28,7 +28,7 @@ This command starts STM32CubeMX using the previous configuration with the curren
 ## Generated Project
 
 ```txt
-> cbuild Hello.csolution.yml --packs
+> cbuild CubeMX.csolution.yml --packs --update-rte
 ```
 
 >**Note:** During the build process required packs may be downloaded.
